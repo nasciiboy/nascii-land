@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{- .Title -}}</title>
+    <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" title="{{ .Site.Title }}" type="application/atom+xml">
+    <style>{{ partial "style.css" . | safeCSS }}</style>
+  </head>
+  <body>
+    {{ block "main" . }}
+    {{ end }}
+    <aside>
+      <div class="banner" >
+      <a href="https://www.debian.org/"><img src="{{ $.Site.BaseURL }}/banner/nascii_mod-debian-logo.png" alt="Debian The universal operating system" border="0" /></a>
+      </div>
+      <div class="banner" >
+      <a href="https://www.fsf.org/"   ><img src="{{ $.Site.BaseURL }}/banner/behroze-gnu-button1.png" alt="Join FSF now" border="0" /></a>
+      </div>
+      <div class="banner" >
+      <img src="{{ $.Site.BaseURL }}/banner/RAmen.png" alt="RAmen" border="0" />
+      </div>
+      <div class="banner" >
+      <a href="https://youtu.be/esRzKRWzhq4"><img src="{{ $.Site.BaseURL }}/banner/sfm.png" alt="+espacios inseguros" border="0" /></a>
+      </div>
+      <div class="banner" >
+        <a  href="https://www.facebook.com/groups/1113067072770396/"><img src="{{ $.Site.BaseURL }}/banner/Tinnitus_white.png" alt="Tinnitus en facebug" border="0" /></a>
+      </div>
+      <div class="banner" >
+        <a href="https://www.printables.com/es/@nasciiboy/models" style="text-decoration: none;" >
+          <b style="color: #fb6832; font-size: 1em; line-height: 3em;" >PRINTABLES</b>
+        </a>
+      </div>
+
+      {{ range $key, $value := .Site.Taxonomies }}
+      <section class="sidebar">
+        <header class="key"><b>{{ $key | upper }}</b></header>
+        <div>
+          <ul class="terms">
+            {{ range $value.ByCount }}<li><a href="{{- $.Site.BaseURL -}}/{{- $key }}/{{ .Name | urlize }}">{{ .Name }}({{.Count }})</a></li>{{ end }}
+          </ul>
+        </div>
+      </section>
+      {{ end }}
+
+    </aside>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

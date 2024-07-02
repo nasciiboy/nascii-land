@@ -1,0 +1,51 @@
+#baseurl = "https://nasciiboy.land"
+baseurl = "https://nasciiboy.github.io"
+title  = "⋲ᴹ∧cₛ ℜø∁κ§"
+copyright = "GPL v3.0"
+
+editor = "emacs -nw"
+
+languageCode = "es"
+
+paginate     = 16
+buildDrafts  = true
+buildFuture  = false
+buildExpired = false
+relativeURLs = false
+canonifyURLs = true
+
+ignoreFiles  = [ "\\.~$" ]
+
+config       = "config.toml"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+staticDir    = "static"
+themesDir    = "themes"
+theme        = "hugo-nascii"
+
+defaultExtension = "html"
+
+enableRobotsTXT  = false
+
+pygmentsCodeFencesGuessSyntax = false
+# color-codes for highlighting derived from this style
+pygmentsStyle =              "monokai"
+# true: use pygments-css or false: color-codes directly
+pygmentsUseClasses =        false
+
+
+[params]
+  AuthorName = "nasciiboy"
+  Email  = "nasciiboy@gmail.com"
+  Licence = "GFDL 1.3"
+  # Theme = "hugo-nascii"
+  # ThemeSource = "source"
+  GPG = "0x7A4E2DDE14D7AD94"
+  GPGSource = "http://pgp.mit.edu/pks/lookup?op=get&search=0x7A4E2DDE14D7AD94"
+  Donate = "paypal"
+  DonateSource = "https://paypal.me/nasciicorp"
+  Keywords    = [ "gnu", "emacs", "fish", "c", "lisp", "programming", "regexp", "morg", "go", "3d", "print", "diy" ]
+  Description = "nasciiboy adverture"
+  toc         = true
