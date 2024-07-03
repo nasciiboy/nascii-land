@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
     <title>{{- .Title -}}</title>
@@ -11,19 +11,19 @@
     {{ end }}
     <aside>
       <div class="banner" >
-      <a href="https://www.debian.org/"><img src="{{ $.Site.BaseURL }}/banner/nascii_mod-debian-logo.png" alt="Debian The universal operating system" border="0" /></a>
+      <a href="https://www.debian.org/"><img src="{{ $.Site.BaseURL }}/banner/nascii_mod-debian-logo.png" alt="Debian The universal operating system"></a>
       </div>
       <div class="banner" >
-      <a href="https://www.fsf.org/"   ><img src="{{ $.Site.BaseURL }}/banner/behroze-gnu-button1.png" alt="Join FSF now" border="0" /></a>
+      <a href="https://www.fsf.org/"   ><img src="{{ $.Site.BaseURL }}/banner/behroze-gnu-button1.png" alt="Join FSF now"></a>
       </div>
       <div class="banner" >
-      <img src="{{ $.Site.BaseURL }}/banner/RAmen.png" alt="RAmen" border="0" />
+      <img src="{{ $.Site.BaseURL }}/banner/RAmen.png" alt="RAmen">
       </div>
       <div class="banner" >
-      <a href="https://youtu.be/esRzKRWzhq4"><img src="{{ $.Site.BaseURL }}/banner/sfm.png" alt="+espacios inseguros" border="0" /></a>
+      <a href="https://youtu.be/esRzKRWzhq4"><img src="{{ $.Site.BaseURL }}/banner/sfm.png" alt="+espacios inseguros"></a>
       </div>
-      <div class="banner" >
-        <a  href="https://www.facebook.com/groups/1113067072770396/"><img src="{{ $.Site.BaseURL }}/banner/Tinnitus_white.png" alt="Tinnitus en facebug" border="0" /></a>
+     <div class="banner" >
+        <a  href="https://www.facebook.com/groups/1113067072770396/"><img src="{{ $.Site.BaseURL }}/banner/Tinnitus_white.png" alt="Tinnitus en facebug"></a>
       </div>
       <div class="banner" >
         <a href="https://www.printables.com/es/@nasciiboy/models" style="text-decoration: none;" >
@@ -32,14 +32,14 @@
       </div>
 
       {{ range $key, $value := .Site.Taxonomies }}
-      <section class="sidebar">
+      <div class="sidebar">
         <header class="key"><b>{{ $key | upper }}</b></header>
         <div>
           <ul class="terms">
             {{ range $value.ByCount }}<li><a href="{{- $.Site.BaseURL -}}/{{- $key }}/{{ .Name | urlize }}">{{ .Name }}({{.Count }})</a></li>{{ end }}
           </ul>
         </div>
-      </section>
+      </div>
       {{ end }}
 
     </aside>
