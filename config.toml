@@ -42,8 +42,8 @@ pygmentsUseClasses =        false
   Licence = "GFDL 1.3"
   # Theme = "hugo-nascii"
   # ThemeSource = "source"
-  GPG = "0x7A4E2DDE14D7AD94"
-  GPGSource = "http://pgp.mit.edu/pks/lookup?op=get&search=0x7A4E2DDE14D7AD94"
+  # GPG = "0x7A4E2DDE14D7AD94"
+  # GPGSource = "http://pgp.mit.edu/pks/lookup?op=get&search=0x7A4E2DDE14D7AD94"
   Donate = "paypal"
   DonateSource = "https://paypal.me/nasciicorp"
   Keywords    = [ "gnu", "emacs", "fish", "c", "lisp", "programming", "regexp", "morg", "go", "3d", "print", "diy" ]

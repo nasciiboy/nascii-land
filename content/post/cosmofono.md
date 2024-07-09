@@ -13,7 +13,7 @@ draft      = false
 Encuentro molesta la complejidad de los sofisticados y potentes reproductores
 musicales, llenos de botoncillos que van a su bola recopilando metadatos de cada
 una de las pistas que encuentre, cuando lo unico que necesito es que reprodusca
-las pistas de una carpeta que ya tengo dispuesta como un album
+las pistas de una carpeta ya dispuesta como album
 
 Asi las cosas les comparto mi sencillo sistema para organizar los miles de
 albums en mi personal coleccion
@@ -66,7 +66,7 @@ existe la grabacion sin ruiditos molestos o por que no existe otra fuente mas
 que un vinil se soporta, pero siempre huye del vinil
 
 Bueno, bueno, regresando al tema el sistema `=XXXX=` es facil de llevar y
-aunque olvides si has escuchado o no un album estara la marca para despejar dudas
+aunque olvides si has escuchado o no un album, estara la marca para despejar dudas
 
 y si aplicas algunos comandos linuxeros, por ejemplo en un terminal (con
 interprete `fish`), puedes contabilizar cuantas pistas tienes en total y cuantas
@@ -85,6 +85,50 @@ en mi maquina arroja lo siguiente
 
 *2149* Albums escuchados, *31,150* pistas reproducidas y *76,748* en total. Nada
 mal, me falta mas de la mitad, hace como un año tenia mas o menos 24k/70k
+
+### Pistas
+
+![](/img/post/cosmofono/cosmofono-20.png)
+
+Por lo general nunca hace falta organizar hasta este punto si las pistas estan
+correctamente numeradas o la metadata incluye la numeracion y asi la interpreta
+el reproductor
+
+Mi formato de numeracion es
+
+    01. pista.flac
+
+o
+
+    01 - pista.flac
+
+si el album contiene 10 o mas pistas, para asegurar el orden utilizar doble
+digito
+
+### Portadas
+
+![](/img/post/cosmofono/cosmofono-22.png)
+
+Si bien aprecio las portadas y cualquier material adicional a la musica, si no
+esta tampoco me preocupa conseguirlo...
+
+Cada programa tiene sus propios requisitos para mostrar o no una portada, cuando
+esta ya viene incluida en el propio `flac` no hay necesidad de hacer nada, para
+los demas casos lo sencillo es agregar una imagen que se llame `cover` en la carpeta
+
+En el mundo del rippeo y la comparticion de musica, las imagenes y material
+adicional suelen ser fotografia o escaneos y en general todo el album viene en
+una sola pista con un archivo adujunto `.cue` donde se indica la posicion y
+nombre de cada pista. En esos casos aprovecho para cortar las pistas e incrustar
+la imagen en cada una, para eso utilizo un conveniente programita
+llamado [flacon](https://flacon.github.io/)
+
+Las mejores portadas las he conseguido con una busquedo del tipo "agrupacion
+album" y al final un "apple", "tidal" o "amazon". Si no hay otras imagenes en la
+carpeta, mas o menos basta con renombrar como `cover` y ya se puede cortar e
+inscrustar la imagen
+
+![](/img/post/cosmofono/cosmofono-21.png)
 
 ## Consideraciones especiales
 
