@@ -116,6 +116,8 @@ Cada programa tiene sus propios requisitos para mostrar o no una portada, cuando
 esta ya viene incluida en el propio `flac` no hay necesidad de hacer nada, para
 los demas casos lo sencillo es agregar una imagen que se llame `cover` en la carpeta
 
+![](/img/post/cosmofono/scanVdcover.jpg)
+
 En el mundo del rippeo y la comparticion de musica, las imagenes y material
 adicional suelen ser fotografia o escaneos y en general todo el album viene en
 una sola pista con un archivo adujunto `.cue` donde se indica la posicion y
