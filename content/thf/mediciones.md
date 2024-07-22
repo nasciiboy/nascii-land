@@ -17,8 +17,8 @@ casos) con otras publicadas por Tinnitus HiFi
 
 Mi agradecimineto a **Mark Ryan** (Super*Review) por el sitio [squig.link](https://squig.link),
 ademas del mantenimiento, revisiones y mejoras de la herramineta [CrinGraph](https://github.com/mlochbaum/CrinGraph)
-originalmente creada por **Mlochbaum** con la aportacion de [**Rohsa**][CrinGraph](https://gitlab.com/rohsa/graphtool)
-quien incorporo a la herramienta [AutoEq](https://github.com/jaakkopasanen/AutoEq) de **Jaakko Pasanen**
+originalmente creada por **Mlochbaum** con la aportacion de [**Rohsa**](https://gitlab.com/rohsa/graphtool)
+que incorporo [AutoEq](https://github.com/jaakkopasanen/AutoEq) de **Jaakko Pasanen**
 y a [**Crinacle**](https://crinacle.com/) por dar inicio a la idea
 
 ## Equipo
@@ -27,7 +27,7 @@ Acoplador compatible 711 60318-4 Type E810A
 
 Pinna compatible 45ca (oreja)
 
-Soporte de acoplador y pinna casero
+Soporte DIY de acoplador y pinna
 
 Computador dedicado con W11 sin conexion a internet
 
@@ -49,8 +49,7 @@ entrada a 75 decibeles SPL con ruido rosa
 El microfono del acoplador se conecta directamente a la placa madre
 ajustando la entrada al 90% en los ajustes de sonido de windows
 
-La salida jack 3.5 de la placa se conecta preferentemente al amplificador Aiyima
-H1 y en el los audifonos
+La salida jack 3.5 de la placa se conecta al amplificador Aiyima H1
 
 En caso de problemas con la amplificacion se prueba con el amplificador douk U3
 y finalmente con el DAC/AMP Fiio K11
@@ -67,9 +66,9 @@ Algo igual sucede con el achivo de calibracion del microfono, tanto si se
 establece como si no, el resultado no varia, sin embargo en este caso se
 conserva por si acaso...
 
-En este momento solo se cuenta con la pinna derecha, solo los audifonos que son
-exactamente iguales en el lado derecho e izquierdo sin ninguna angulacion o
-geometria especifica se publican mediciones de ambas copas
+En este momento solo se cuenta con la pinna derecha, solo se publican mediciones
+de ambos lados de audifonos que son exactamente iguales en el lado derecho e
+izquierdo sin ninguna angulacion o geometria especifica
 
 Tanto en Over Ears como In Ears se busca un sello perfecto
 
