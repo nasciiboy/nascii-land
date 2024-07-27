@@ -9,11 +9,11 @@ draft      = false
 ![](/img/thf/mediciones/soporte-0.jpg)
 
 Aqui se muestra el equipo, especificaciones y metodo de medicion del "proyecto
-**Tinnitus HiFi**"
+**Tinnitus HiFi**" publicadas en [squig](https://tinnitus-hifi.squig.link/)
 
-La configuracion, metodologia y espacio de las mediciones no son ideales ni
-acordes a ninguna especificacion conocida y solo son comparables (en el mejor de los
-casos) con otras publicadas por Tinnitus HiFi
+La configuracion, metodologia y espacio de las mediciones no son ideales, solo
+son comparables (en el mejor de los casos) con otras publicadas por Tinnitus
+HiFi
 
 Mi agradecimineto a **Mark Ryan** (Super*Review) por el sitio [squig.link](https://squig.link),
 ademas del mantenimiento, revisiones y mejoras de la herramineta [CrinGraph](https://github.com/mlochbaum/CrinGraph)
@@ -25,7 +25,11 @@ y a [**Crinacle**](https://crinacle.com/) por dar inicio a la idea
 
 Acoplador compatible 711 60318-4 Type E810A
 
-Pinna compatible 45ca (oreja)
+![](/img/thf/mediciones/c-2.jpg)
+
+Pinna (oreja) compatible 45ca
+
+![](/img/thf/mediciones/a.jpg)
 
 Soporte DIY de acoplador y pinna
 
@@ -35,7 +39,7 @@ Computador dedicado con W11 sin conexion a internet
 - 8GB DDR4 3200
 - AMD A6-9500
 
-Amplificador Aiyima H1
+Amplificador Aiyima H1 (Principal)
 
 Amplificador Douk U3
 
@@ -43,8 +47,11 @@ Fiio K11
 
 ## Metodo
 
-Se utiliza un muestreo de 96KHz con longuitud de 512k, calibrando el nivel de
-entrada a 75 decibeles SPL con ruido rosa
+Se utiliza un muestreo de 44.1KHz con longuitud de 512k, calibrando el nivel de
+entrada a 95 decibeles SPL con onda sinusoidal a 1Khz
+
+El controlador dedicado realtek proporcionado por asus se establecio en 44.1KHz
+con 24Bits de profundidad
 
 El microfono del acoplador se conecta directamente a la placa madre
 ajustando la entrada al 90% en los ajustes de sonido de windows
@@ -54,9 +61,31 @@ La salida jack 3.5 de la placa se conecta al amplificador Aiyima H1
 En caso de problemas con la amplificacion se prueba con el amplificador douk U3
 y finalmente con el DAC/AMP Fiio K11
 
-No cuento con un microfono calibrado, asi que se utilizo una aplicacion de
-sonometro en un celular alineando el microfono con el borde de la almohadilla de
-un audifono hasta alcanzar 75 decibeles SPL y con ello se calibro el nivel de entrada
+![](/img/thf/mediciones/lab_cal.jpg)
+
+Como medio de calibracion se utilizo como referencia el iem *WG T-One* conectado
+al amplificador AIYIMA H1 a 0.100mV con una frecuencia de 1Khz calibrando el
+nivel de entrada como 105dB
+
+![](/img/thf/mediciones/wg_t-one.jpg)
+
+![](/img/thf/mediciones/wg_t-one-specs.jpg)
+
+Se verifico la calibracion con otros dos iems, el *CCA CXS*
+
+![](/img/thf/mediciones/cxs-specs.jpg)
+
+que marcaba
+
+![](/img/thf/mediciones/cxs.jpg)
+
+y el *KZ PR3*
+
+![](/img/thf/mediciones/pr3-specs.jpg)
+
+que marcaba
+
+![](/img/thf/mediciones/pr3.jpg)
 
 Al realizar el loop de calibracion la respuesta se mantiene plana en el rango de
 20-20KHz, haciendo pruebas tanto si hay establecido un archivo de calibracion
@@ -72,26 +101,45 @@ izquierdo sin ninguna angulacion o geometria especifica
 
 Tanto en Over Ears como In Ears se busca un sello perfecto
 
-En iems el grado de insercion se hace coincidir (si es posible) con una resonancia a 8KHz
-y se realiza un par de mediciones para descarcar cualquier error, aunque solo
-una se publica
+Con una onda sinusoidal de 1KHz se calibra la entrada a 95dB SPL
 
-En Over Ears siempre que se mantenga el sello se realizan 4 mediciones modificando la
-posicion partiendo de una colocacion "ideal" y luego 3 cambios de posicion para
-generar un promedio
+En iems el grado de insercion se hace coincidir (si es posible) con una
+resonancia a 8KHz. Solo y unicamente se publica una medicion para cada lado
+(R y L)
+
+En Over Ears siempre que se mantenga el sello se realizan al menos 4 mediciones
+modificando la posicion partiendo de una colocacion "ideal" y luego 3 cambios de
+posicion para generar un promedio
 
 Para los On Ears Se busca una posicion ideal aunque esta no siempre consiga un
 buen sello
 
 Se descartan las mediciones "extrañas" o con demaciada divergencia
 
-El promedio de estas mediciones se alinea en 500 Hz a 60 SPL sin suavizado
-en un rango de 20-20KHz
+se alinean nuevamente las mediciones a 1KHz 95dB SPL y se promedian
 
-La medicion o premedio (segun el caso) se exporta como un txt en rango de
+La medicion o premedio  **sin suavizado** (segun el caso) se exporta como un txt en rango de
 20-20Khz con una resolucion de 48PPO delimitado por tabuladores
 
-En squig la medicion se presenta con alineacion a 60dB 500Hz con un suavizado `5`
+En squig la medicion se presenta con alineacion a 60dB 1KHz con un suavizado `5`
 que se puede ajustar a voluntad
 
 ![](/img/thf/mediciones/squig.png)
+
+## Comparaciones
+
+Aunque se menciono la falta de rigor de nuestras mediciones y mas fuera del
+mismo sistema, no esta de mas satisfacer el morbo y ver que tanto divergen con
+otras
+
+![](/img/thf/mediciones/mele.png)
+
+![](/img/thf/mediciones/ba8.png)
+
+![](/img/thf/mediciones/400SE.png)
+
+
+La descarga de los datos esta habilitada para su comodidad, asi que puede hacer
+todas las comparaciones que desee
+
+Disfrut!
