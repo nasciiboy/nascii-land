@@ -3,7 +3,7 @@
 name = "nascii Theme"
 license = "MIT"
 licenselink = "https://gitlab.com/nasciiboy/nascii-theme/LICENSE.md"
-description = "a specific theme for love-games"
+description = ""
 homepage = "http://example.com/"
 tags = ["prog", "nascii", "emacs", "ramen"]
 features = ["no-css", "no-js", "no-analitics"]

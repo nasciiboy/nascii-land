@@ -10,15 +10,14 @@
   </ul>
 
   <ul class="article">
-  {{ range .Site.RegularPages.ByDate.Reverse }}
-  <li>
-    <p>
-      <span style="color:#888" >{{ .Date.Format "06 01 02" }}</span> <a class="title" href="{{.Permalink}}">{{.Title}}</a>
-    </p>
-  </li>
-  {{ end }}
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+    <li>
+      <p>
+        <span style="color:#888" >{{ .Date.Format "06 01 02" }}</span> <a class="title" href="{{.Permalink}}">{{.Title}}</a>
+      </p>
+    </li>
+    {{ end }}
   </ul>
-
 
 </main>
 {{ end }}

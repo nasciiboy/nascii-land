@@ -1,7 +1,7 @@
 +++
 title      = "{{ replace .TranslationBaseName "-" " " | title }}"
 tags       = [ "" ]
-categories = [ "3DP" ]
+categories = [ "3dp" ]
 date       = {{ .Date }}
 draft      = false
 +++

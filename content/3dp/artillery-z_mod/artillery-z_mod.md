@@ -1,7 +1,7 @@
 +++
 title      = "Artillery Z Mod"
 tags       = [ "Artillery", "Genius", "Mod", "OpenScad" ]
-categories = [ "3DP" ]
+categories = [ "3dp", "thf" ]
 date       = 2022-12-11T18:35:26-06:00
 draft      = false
 +++

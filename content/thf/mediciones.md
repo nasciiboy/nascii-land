@@ -1,8 +1,8 @@
 +++
 title      = "Mediciones"
-tags       = [ "Tiinnitus-HiFi" ]
-categories = [ "Tinnitus-HiFi" ]
-date       = 2024-07-06T21:07:46-06:00
+tags       = [ "" ]
+categories = [ "thf" ]
+date       = 2024-07-27T03:20:59-06:00
 draft      = false
 +++
 
@@ -17,9 +17,15 @@ HiFi
 
 Mi agradecimineto a **Mark Ryan** (Super*Review) por el sitio [squig.link](https://squig.link),
 ademas del mantenimiento, revisiones y mejoras de la herramineta [CrinGraph](https://github.com/mlochbaum/CrinGraph)
-originalmente creada por **Mlochbaum** con la aportacion de [**Rohsa**](https://gitlab.com/rohsa/graphtool)
+(https://github.com/MRSallee/CrinGraph) originalmente creada por **Mlochbaum** con la aportacion de [**Rohsa**](https://gitlab.com/rohsa/graphtool)
 que incorporo [AutoEq](https://github.com/jaakkopasanen/AutoEq) de **Jaakko Pasanen**
 y a [**Crinacle**](https://crinacle.com/) por dar inicio a la idea
+
+Un agradecimiento especial a Gustavo Gonzáles ([Auriculares Argentina](https://www.youtube.com/c/AuricularesArgentina))
+por su ardua labor y esfuerzo al divulgar en español la necesidad de mediciones.
+
+Tambien a [Darkeniel](https://www.youtube.com/@Darkeniel) por aportar desinteresadamente el DAC/AMP Fiio K11
+y mostrar personalmente el uso de REW
 
 ## Equipo
 
@@ -47,8 +53,8 @@ Fiio K11
 
 ## Metodo
 
-Se utiliza un muestreo de 44.1KHz con longuitud de 512k, calibrando el nivel de
-entrada a 95 decibeles SPL con onda sinusoidal a 1Khz
+En REW se utiliza un muestreo de 44.1KHz con longuitud de 512k, calibrando el
+nivel de entrada a 95 decibeles SPL con onda sinusoidal a 1Khz
 
 El controlador dedicado realtek proporcionado por asus se establecio en 44.1KHz
 con 24Bits de profundidad
@@ -63,8 +69,8 @@ y finalmente con el DAC/AMP Fiio K11
 
 ![](/img/thf/mediciones/lab_cal.jpg)
 
-Como medio de calibracion se utilizo como referencia el iem *WG T-One* conectado
-al amplificador AIYIMA H1 a 0.100mV con una frecuencia de 1Khz calibrando el
+Como medio de calibracion se utilizo de referencia el iem *WG T-One* conectado
+al amplificador AIYIMA H1 a 0.100V con una frecuencia de 1Khz calibrando el
 nivel de entrada como 105dB
 
 ![](/img/thf/mediciones/wg_t-one.jpg)
@@ -99,9 +105,18 @@ En este momento solo se cuenta con la pinna derecha, solo se publican mediciones
 de ambos lados de audifonos que son exactamente iguales en el lado derecho e
 izquierdo sin ninguna angulacion o geometria especifica
 
-Tanto en Over Ears como In Ears se busca un sello perfecto
+![](/img/thf/mediciones/em-00.jpg)
 
-Con una onda sinusoidal de 1KHz se calibra la entrada a 95dB SPL
+La medicion de earbuds en esta plataforma a mi parecer no representa
+apropiadamente como se persive el sonido, aun asi se cree que agrega valor a
+modo de registro y comparacion sobre el propio sistema y para sistemas similares
+
+La naturaleza propia de los earbuds no favorece un sello perfecto, por ello en
+su mayoria se colocan sobre la oreja sin espumas, a menos que no se mantengan
+por si mismos en una posicion estable. Se quita y recoloca con pequeños ajustes
+para realizar al menos 4 mediciones en total y con ellas generar un promedio
+
+Tanto en Over Ears como In Ears se busca un sello perfecto
 
 En iems el grado de insercion se hace coincidir (si es posible) con una
 resonancia a 8KHz. Solo y unicamente se publica una medicion para cada lado
@@ -114,9 +129,7 @@ posicion para generar un promedio
 Para los On Ears Se busca una posicion ideal aunque esta no siempre consiga un
 buen sello
 
-Se descartan las mediciones "extrañas" o con demaciada divergencia
-
-se alinean nuevamente las mediciones a 1KHz 95dB SPL y se promedian
+Para todas las mediciones Se descartan las mediciones "extrañas" o con demaciada divergencia
 
 La medicion o premedio  **sin suavizado** (segun el caso) se exporta como un txt en rango de
 20-20Khz con una resolucion de 48PPO delimitado por tabuladores

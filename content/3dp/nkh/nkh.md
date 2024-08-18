@@ -1,7 +1,7 @@
 +++
 title      = "NASCII NKH"
 tags       = [ "headphone", "qigom", "leaginal", "nkh", "fonos", "nascii" ]
-categories = [ "3DP" ]
+categories = [ "3dp" ]
 date       = 2023-06-25T00:19:30-06:00
 draft      = false
 +++
@@ -374,6 +374,7 @@ respecto al beats solo 3, pero... gustos...
 [https://s.click.aliexpress.com/e/_Ddn2Urt](https://s.click.aliexpress.com/e/_Ddn2Urt) (modelo m 50, revise con atencion la imagen)
 
 Modelo [**NKH Z65**](https://www.printables.com/es/model/625625-nascii-nkh-z65).
+Adaptador `driver/494.stl`
 
 ![](/img/3dp/NKH/NKH-Z65-18.jpg)
 

@@ -1,7 +1,7 @@
 +++
 title      = "NASCII PTG"
 tags       = [ "headphone", "qigom", "leaginal", "ptg", "fonos", "nascii" ]
-categories = [ "3DP" ]
+categories = [ "3dp" ]
 date       = 2023-02-03T15:54:05-06:00
 draft      = false
 +++

@@ -1,7 +1,7 @@
 +++
 title      = "{{ replace .TranslationBaseName "-" " " | title }}"
-tags       = [ "Tiinnitus-HiFi" ]
-categories = [ "Tinnitus-HiFi" ]
+tags       = [ "" ]
+categories = [ "thf" ]
 date       = {{ .Date }}
 draft      = false
 +++

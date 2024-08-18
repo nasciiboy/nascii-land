@@ -6,6 +6,7 @@ copyright = "GPL v3.0"
 editor = "emacs -nw"
 
 languageCode = "es"
+defaultContentLanguage = "es"
 
 paginate     = 16
 buildDrafts  = true
@@ -33,8 +34,10 @@ pygmentsCodeFencesGuessSyntax = false
 # color-codes for highlighting derived from this style
 pygmentsStyle =              "monokai"
 # true: use pygments-css or false: color-codes directly
-pygmentsUseClasses =        false
+pygmentsUseClasses = false
 
+[outputs]
+  home= ['html', 'rss']
 
 [params]
   AuthorName = "nasciiboy"

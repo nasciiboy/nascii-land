@@ -1,7 +1,7 @@
 +++
 title      = "NASCII NKH – Guia de uso rapido"
 tags       = [ "headphone", "nkh", "fonos", "nascii" ]
-categories = [ "3DP" ]
+categories = [ "3dp" ]
 date       = 2024-01-08T02:13:20-06:00
 draft      = false
 +++
